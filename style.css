@@ -1,0 +1,52 @@
+/* style css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.primeiro-container {
+    background-color: rgb(57, 57, 78);
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.grupo-esquerdo {
+    font-weight: bold;
+}
+
+.grupo-direito {
+    display: flex;
+    gap: 10px;
+}
+
+.cabeça {
+    display: flex;
+    justify-content: space-around;
+}
+
+.corpo {
+    height: 150px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.imagem {
+    width: 250px;
+    height: 150px;
+    background-color: rgb(172, 172, 172);
+    border-radius: 10px;
+}
+
+.texto {
+    max-width: 300px;
+    word-break: break-word;
+    white-space: normal;
+}
