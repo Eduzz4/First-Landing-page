@@ -137,3 +137,16 @@
     height: 50px;
     margin-left: 20px;
 }
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: rgb(57, 57, 78);
+}
+
+.rodape p {
+    color: white;
+    padding: 10px;
+}
