@@ -116,3 +116,24 @@
     height: 20px;
     margin-left: 240px;
 }
+
+.quarto-conteiner {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo {
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    background-color: rgb(48, 48, 255);
+    color: white;
+    padding: 10px;
+}
+
+.quarto-conteiner button {
+    height: 50px;
+    margin-left: 20px;
+}
